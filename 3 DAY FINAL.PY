@@ -468,25 +468,25 @@ window.state('zoomed')
 ################################################upper row ################################################ 
 # add-to-custumer image 
 canvas=Canvas(window,width=2000,height=2000)
-photo=ImageTk.PhotoImage(file="add.png")
+photo=ImageTk.PhotoImage(file="assets/add.png")
 canvas.create_image(0,0,image=photo,anchor='nw')
 canvas.place(x=60,y=20)
 
 #delete customer image
 canvas1=Canvas(window,width=2000,height=2000)
-photo1=ImageTk.PhotoImage(file="import.png")
+photo1=ImageTk.PhotoImage(file="assets/import.png")
 canvas1.create_image(0,0,image=photo1,anchor='nw')
 canvas1.place(x=360,y=20)
 
 #edit customer image
 canvas2=Canvas(window,width=2000,height=2000)
-photo2=ImageTk.PhotoImage(file="look.png")
+photo2=ImageTk.PhotoImage(file="assets/look.png")
 canvas2.create_image(0,0,image=photo2,anchor='nw')
 canvas2.place(x=660,y=20)
 
 # import customer image
 canvas3=Canvas(window,width=2000,height=2000)
-photo3=ImageTk.PhotoImage(file="graph.png")
+photo3=ImageTk.PhotoImage(file="assets/graph.png")
 canvas3.create_image(0,0,image=photo3,anchor='nw')
 canvas3.place(x=960,y=20)
 
@@ -517,28 +517,28 @@ rad2=Radiobutton(window,text="Bar Graph",bg='gold',fg='black',value=2,variable=i
 ##################################################### lower row ***************************************************
 
 canvas4=Canvas(window,width=2000,height=2000)
-photo4=ImageTk.PhotoImage(file="filter.png")
+photo4=ImageTk.PhotoImage(file="assets/filter.png")
 canvas4.create_image(0,0,image=photo4,anchor='nw')
 canvas4.place(x=60,y=360)
 
 
 
 canvas5=Canvas(window,width=2000,height=2000)
-photo5=ImageTk.PhotoImage(file="edit.png")
+photo5=ImageTk.PhotoImage(file="assets/edit.png")
 canvas5.create_image(0,0,image=photo5,anchor='nw')
 canvas5.place(x=360,y=360)
 
 
 
 canvas6=Canvas(window,width=2000,height=2000)
-photo6=ImageTk.PhotoImage(file="delete.png")
+photo6=ImageTk.PhotoImage(file="assets/delete.png")
 canvas6.create_image(0,0,image=photo6,anchor='nw')
 canvas6.place(x=660,y=360)
 
 
 
 canvas7=Canvas(window,width=2000,height=2000)
-photo7=ImageTk.PhotoImage(file="export.png")
+photo7=ImageTk.PhotoImage(file="assets/export.png")
 canvas7.create_image(0,0,image=photo7,anchor='nw')
 canvas7.place(x=960,y=360)
 
